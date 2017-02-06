@@ -1,0 +1,11 @@
+.jumbotron {
+    background-image: url(../images/cover.jpg);
+    background-size: cover;
+    height: 400px;
+    color: #00CED1;
+}
+
+body {
+    background-color: #483D8B;
+    color: #00CED1;
+}
