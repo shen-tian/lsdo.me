@@ -2,6 +2,14 @@
 layout: default
 ---
 
+<div class="container">
+  <ul class="nav nav-tabs">
+    <li role="presentation" class="active"><a href="#">Home</a></li>
+    <li role="presentation"><a href="tech.html">Tech</a></li>
+  </ul>
+</div>
+
+
 <div class="jumbotron">
   <div class="container">
     <h1>Limitless Slip Dome</h1>
@@ -41,20 +49,21 @@ layout: default
 
   <div class="row">
     <div class="col-sm-6">
-      <form>
+      <form action="https://formspree.io/biozinc@gmail.com"
+            method="POST">
         <div class="form-group">
           <label for="nameInput">Name</label>
-          <input type="text" class="form-control" id="nameInput" placeholder="Name">
+          <input type="text" class="form-control" id="nameInput" name="name" placeholder="Name">
         </div>
         <div class="form-group">
           <label for="emailInput">Email address</label>
-          <input type="email" class="form-control" id="emailInput" placeholder="Email">
+          <input type="email" class="form-control" id="emailInput" name="email" placeholder="Email">
         </div>
         <div class="form-group">
           <label for="messageInput">Message</label>
-          <textarea type="password" rows="3" class="form-control" id="messageInput" placeholder="Message"></textarea>
+          <textarea type="password" rows="4" class="form-control" id="messageInput" name="message" placeholder="Message"></textarea>
         </div>
-        <button type="submit" class="btn btn-default">Submit</button>
+        <button type="submit" class="btn btn-default" value="send">Submit</button>
       </form>
     </div>
   </div>
