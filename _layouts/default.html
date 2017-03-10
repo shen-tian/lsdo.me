@@ -1,59 +1,53 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE HTML>
+<!--
+    story by HTML5 UP
+    html5up.net | @ajlkn
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+  -->
+<html>
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Limitless Slip Dome</title>
-    <meta name="Home page for Limitless Slip Dome" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    <!-- Place favicon.ico in the root directory -->
-    <!-- Latest compiled and minified CSS -->
-    <link 
-      rel="stylesheet" 
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
-      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" 
-      crossorigin="anonymous">
-
-    <!-- Optional theme -->
-    <link 
-      rel="stylesheet" 
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" 
-      integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" 
-      crossorigin="anonymous">
-
-    <link
-      rel="stylesheet"
-      href="css/styles.css">
-
-    <script
-      src="https://code.jquery.com/jquery-3.1.1.min.js"
-      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-      crossorigin="anonymous"></script>
-
-    <!-- Latest compiled and minified JavaScript -->
-    <script 
-      src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" 
-      integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" 
-      crossorigin="anonymous"></script>
+    <title>{{ page.title }}</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/css/main.css" />
   </head>
   <body>
-    <!--[if lte IE 9]>
-          <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-    <![endif]-->
 
-    <div class="container">
-      <ul class="nav nav-tabs">
-        <li role="presentation"><a href="index.html">Home</a></li>
-        <li role="presentation"><a href="tech.html">Tech</a></li>
-      </ul>
+    <!-- Wrapper -->
+    <div id="wrapper" class="divided">
+      <section class="wrapper style1 align-center color5 invert">
+        <div class="inner">
+          <div class="index align-left">
+            <section>
+            <header><h2><a href="/">Home</a></h2></header>
+            <div class="content">
+              {{ content }}
+            </div>
+            </section>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="wrapper style1 align-center color4 invert">
+	<div class="inner">
+	  <ul class="icons">
+	    <li><a href="https://github.com/shen-tian/lsdome" class="icon style2 fa-github"><span class="label">Twitter</span></a></li>
+	    <li><a href="https://lsdome.slack.com/" class="icon style2 fa-slack"><span class="label">Facebook</span></a></li>
+	  </ul>
+	  <p>&copy 2017 {{ site.title }} - Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+          <p><a href="https://github.com/shen-tian/lsdo.me">Page source</a></p>
+	</div>
+      </footer>
+
     </div>
 
-    {{ content }}
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/skel.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
 
-    <div class="container">
-      <p>© 2016-17 by the Limitless Slip Dome collective</p>
-    </div>
-
+  </body>
 </html>
