@@ -1,6 +1,6 @@
 ---
 title: Tech stuff
-layout: default
+layout: page
 ---
 
 # 2016 Dome design
