@@ -1,9 +1,7 @@
 ---
-title: Tech stuff
+title: 2016 Dome Design
 layout: page
 ---
-
-# 2016 Dome design
 
 ## Power
 
