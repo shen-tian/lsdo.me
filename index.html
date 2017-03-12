@@ -51,7 +51,8 @@ layout: default
     {% for image in site.data.images %}
     <article>
       <a href="https://res.cloudinary.com/shen-tian/image/upload/c_scale,w_800/{{ image.filename }}.jpg" class="image">
-	<img src="https://res.cloudinary.com/shen-tian/image/upload/c_scale,h_250,w_360/{{ image.filename }}.jpg" alt="" />
+	<img src="https://res.cloudinary.com/shen-tian/image/upload/c_scale,h_250,w_360/{{ image.filename }}.jpg" 
+             width="360" height="250" alt="" />
       </a>	   
     </article>
     {% endfor %}
