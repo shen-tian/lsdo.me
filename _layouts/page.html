@@ -5,14 +5,18 @@ layout: default
 <section class="wrapper style1 align-center color6 invert">
   <div class="inner">
     <h1> {{ page.title }} </h1>
-    <p><a href="/">Home</a></p>
+    <ul class="actions">
+      {% for page in site.pages %}
+      <li><a class="button small" href="{{ page.url }}">{{ page.title }}</a></li>
+      {% endfor %}
+    </ul>
   </div>
 
 </section>
 
 
 <section class="wrapper style1 align-center color5 invert">
-  <div class="inner">
+  <div class="inner">    
     <div class="index align-left">
       <section>
         <header><i class="fa fa-fire fa-4x" aria-hidden="true"></i></header>
